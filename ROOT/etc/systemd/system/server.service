@@ -1,0 +1,13 @@
+[Unit]
+Description=My NodeJS App
+After=network.target
+
+[Service]
+User=server
+WorkingDirectory=/home/server/app
+ExecStart=sh /home/server/app/init.sh
+Restart=always
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target

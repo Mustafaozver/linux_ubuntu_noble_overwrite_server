@@ -26,8 +26,8 @@
 
 
     const Setup = ()=>{ // backup
-        const path_0 = PATH.join(__dirname, "./home/mustafa/"); // destination
-        const path_1 = PATH.join("/home/mustafa/"); // source
+        const path_0 = PATH.join(__dirname, "./home/server/"); // destination
+        const path_1 = PATH.join("/home/server/"); // source
         const path_2 = PATH.join(__dirname, "__");
 
         const isBackUp = !false;
